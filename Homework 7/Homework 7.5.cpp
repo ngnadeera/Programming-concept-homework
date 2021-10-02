@@ -13,7 +13,7 @@ int main ()
   char *token;         //  hold the separator value
   token = strtok(s,"\n "); //seperate the text by the spaces 
   int count = 0;      //to hold the count 
-  while(token != NULL){     //
+  while(token != NULL){     
   
   	count ++;
   	token = strtok(NULL,"\n ");
