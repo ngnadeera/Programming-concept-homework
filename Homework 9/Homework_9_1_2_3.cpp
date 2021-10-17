@@ -20,7 +20,7 @@ int main () {
 	
 	for (int i = 0 ; i <10 ; i++){
 		
-		(d_array ++ ) = 1.0 ; 
+		d_array [i] = 1.0 ; 
 		
 	}
 	
